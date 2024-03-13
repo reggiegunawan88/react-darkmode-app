@@ -13,7 +13,7 @@ function Home() {
       <div className="main-container">
         {/* Top title section */}
         <span className="top-title-text">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br />
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam
         </span>
 

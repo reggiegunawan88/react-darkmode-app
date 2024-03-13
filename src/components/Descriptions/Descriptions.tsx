@@ -1,4 +1,3 @@
-import HorizontalLine from "components/HorizontalLine/HorizontalLine";
 import "./styles/main.css";
 import "./styles/responsive.css";
 
@@ -24,12 +23,21 @@ function Descriptions({
       }`}
     >
       <div className="subtitle-text-section">
-        <span>{subtitle1}</span>
+        <span className="subtitle-text">{subtitle1}</span>
         <span className="subtitle-caption">{caption1}</span>
       </div>
-      <HorizontalLine />
+
+      {/* Divider */}
+      <div
+        className={`hr-container ${
+          align === "left" ? "hr-left-sided" : "hr-right-sided"
+        }`}
+      >
+        <div className="hr-line" />
+      </div>
+
       <div className="subtitle-text-section">
-        <span>{subtitle2}</span>
+        <span className="subtitle-text">{subtitle2}</span>
         <span className="subtitle-caption">{caption2}</span>
       </div>
     </div>

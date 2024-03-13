@@ -1,7 +1,7 @@
 .subtitle-container {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 20px;
 }
 
 .subtitle-text-section {
@@ -18,6 +18,30 @@
   text-align: right;
 }
 
+.subtitle-text-section > .subtitle-text {
+  font-size: 12px;
+}
+
 .subtitle-text-section > .subtitle-caption {
+  font-size: 10px;
   color: var(--subtitle-caption-color);
+}
+
+.hr-container {
+  display: flex;
+}
+
+.hr-left-sided {
+  place-content: flex-start;
+}
+
+.hr-right-sided {
+  place-content: flex-end;
+}
+
+.hr-line {
+  color: var(--primary-text-color);
+  background-color: var(--primary-text-color);
+  height: 1px;
+  width: 50%;
 }
