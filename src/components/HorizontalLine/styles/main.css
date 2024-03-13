@@ -1,0 +1,6 @@
+.hr-line {
+  color: var(--primary-text-color);
+  background-color: var(--primary-text-color);
+  height: 1px;
+  width: 100%;
+}

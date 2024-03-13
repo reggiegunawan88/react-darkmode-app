@@ -1,0 +1,23 @@
+.subtitle-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.subtitle-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.subtitle-text-left {
+  text-align: left;
+}
+
+.subtitle-text-right {
+  text-align: right;
+}
+
+.subtitle-text-section > .subtitle-caption {
+  color: var(--subtitle-caption-color);
+}
