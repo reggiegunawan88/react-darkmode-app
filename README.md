@@ -19,16 +19,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Screenshots
 
 #### Desktop Mode
-![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/65310c02-aa64-44e8-8e10-486a1df1a918)
+![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/37a8c226-4e39-4d50-8f69-0e4a8d2d3b0c)
 
 
 #### Mobile Mode
-
-![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/4d1098e9-4860-494d-a56e-59f1527a8c98)
-
+![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/083a923a-ff68-4500-a3c9-0e7e1b53e2ce)
 
 #### Dark Mode
+![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/71c7eddd-53a9-4397-a82e-300055741729)
 
-![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/a07abb18-e53d-4fef-a735-2b4cd9293f77)
+![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/77dc121f-6699-4fc6-becd-dc23aec31ba0)
 
-![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/dc28ad05-1058-44ac-8d0b-31f0a27267c2)
+
