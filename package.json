@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "npm run build && surge ./build/ coconutlab-react-reggie.surge.sh"
   },
   "eslintConfig": {
     "extends": [
