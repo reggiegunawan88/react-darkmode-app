@@ -4,21 +4,21 @@ import './styles/responsive.css'
 
 interface Props {
   align: 'left' | 'right'
-  topText: ReactNode
-  bottomText: ReactNode
+  topCaption: ReactNode
+  bottomCaption: ReactNode
 }
 
-function Descriptions({ align, topText, bottomText }: Props) {
+function Descriptions({ align, topCaption, bottomCaption }: Props) {
   return (
-    <div className={`descriptions-container ${align === 'left' ? 'subtitle-text-left' : 'subtitle-text-right'}`}>
-      {topText}
+    <div className={`descriptions-container ${align === 'left' ? 'caption-text-left' : 'caption-text-right'}`}>
+      {topCaption}
 
       {/* Divider */}
       <div className={`hr-container ${align === 'left' ? 'hr-left-sided' : 'hr-right-sided'}`}>
         <div className="hr-line" />
       </div>
 
-      {bottomText}
+      {bottomCaption}
     </div>
   )
 }

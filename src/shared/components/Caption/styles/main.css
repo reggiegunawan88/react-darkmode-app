@@ -1,14 +1,14 @@
-.subtitle-text-section {
+.caption-text-section {
   display: flex;
   flex-direction: column;
   gap: 1px;
 }
 
-.subtitle-text-section > .subtitle-text {
+.caption-text-section > .caption-text {
   font-size: 12px;
 }
 
-.subtitle-text-section > .subtitle-caption {
+.caption-text-section > .caption-caption {
   font-size: 10px;
   color: var(--subtitle-caption-color);
 }

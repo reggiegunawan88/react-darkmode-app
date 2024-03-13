@@ -1,5 +1,5 @@
-import Descriptions from 'components/Descriptions/Descriptions'
-import Subtitle from 'components/Subtitle/Subtitle'
+import Descriptions from 'shared/components/Descriptions/Descriptions'
+import Caption from 'shared/components/Caption/Caption'
 
 function MobileView() {
   return (
@@ -12,13 +12,13 @@ function MobileView() {
       <div className="descriptions-section">
         <Descriptions
           align="left"
-          topText={<Subtitle title="2m+" caption="nisi ut aliquid" />}
-          bottomText={<Subtitle title="100m+" caption="autem quibusdam" />}
+          topCaption={<Caption title="2m+" caption="nisi ut aliquid" />}
+          bottomCaption={<Caption title="100m+" caption="autem quibusdam" />}
         />
         <Descriptions
           align="right"
-          topText={<Subtitle title="1k+" caption="rerum facilis" />}
-          bottomText={<Subtitle title="120k" caption="libero tempore" />}
+          topCaption={<Caption title="1k+" caption="rerum facilis" />}
+          bottomCaption={<Caption title="120k" caption="libero tempore" />}
         />
       </div>
     </div>

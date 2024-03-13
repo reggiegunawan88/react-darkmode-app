@@ -1,0 +1,8 @@
+@media (max-width: 640px) {
+  .caption-text-left {
+    align-self: flex-start;
+  }
+  .caption-text-right {
+    align-self: flex-end;
+  }
+}

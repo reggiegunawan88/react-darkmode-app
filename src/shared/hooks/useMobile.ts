@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 
+const MOBILE_BREAKPOINT = 640
+
 const useMobile = () => {
-  const [mobile, setMobile] = useState(window.innerWidth < 768)
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= MOBILE_BREAKPOINT)
 
   function handleWindowSizeChange() {
-    setMobile(window.innerWidth < 768)
+    setIsMobile(window.innerWidth <= MOBILE_BREAKPOINT)
   }
 
   useEffect(() => {
@@ -14,7 +16,7 @@ const useMobile = () => {
     }
   }, [])
 
-  return { mobile }
+  return { isMobile }
 }
 
 export default useMobile

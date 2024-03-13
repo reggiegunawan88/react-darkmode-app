@@ -1,15 +1,16 @@
-import Button from 'components/Button/Button'
-import DesktopView from './components/Desktop/DesktopView'
-import MobileView from './components/Mobile/MobileView'
-import { useContext } from 'react'
+import React, { Suspense, useContext } from 'react'
 import { ThemeContext } from 'context/theme-context'
-import useMobile from 'hooks/useMobile'
+import useMobile from 'shared/hooks/useMobile'
+import Button from 'shared/components/Button/Button'
 import './styles/main.css'
 import './styles/responsive.css'
 
+const DesktopView = React.lazy(() => import('./modules/DesktopView'))
+const MobileView = React.lazy(() => import('./modules/MobileView'))
+
 function Home() {
   const { isDarkMode } = useContext(ThemeContext)
-  const { mobile } = useMobile()
+  const { isMobile } = useMobile()
 
   return (
     <div className="root-container" data-theme={isDarkMode ? 'dark' : 'light'}>
@@ -20,7 +21,7 @@ function Home() {
         </span>
 
         {/* Content section */}
-        {mobile ? <MobileView /> : <DesktopView />}
+        <Suspense>{isMobile ? <MobileView /> : <DesktopView />}</Suspense>
 
         {/* Button section */}
         <div className="button-section">

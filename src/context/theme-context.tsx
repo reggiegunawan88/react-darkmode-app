@@ -21,7 +21,7 @@ function ThemeProvider({ children }: ProviderProps) {
     setIsDarkMode(!isDarkMode)
   }
 
-  return <ThemeContext.Provider value={{ isDarkMode: isDarkMode, toggleTheme: toggleTheme }}>{children}</ThemeContext.Provider>
+  return <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>{children}</ThemeContext.Provider>
 }
 
 export { ThemeContext, ThemeProvider }

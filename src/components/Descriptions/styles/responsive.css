@@ -1,8 +1,0 @@
-@media (max-width: 768px) {
-  .subtitle-text-left {
-    align-self: flex-start;
-  }
-  .subtitle-text-right {
-    align-self: flex-end;
-  }
-}
