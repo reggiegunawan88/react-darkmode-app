@@ -32,12 +32,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/a07abb18-e53d-4fef-a735-2b4cd9293f77)
 
 ![image](https://github.com/reggiegunawan88/react-darkmode-app/assets/44907916/dc28ad05-1058-44ac-8d0b-31f0a27267c2)
-
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
