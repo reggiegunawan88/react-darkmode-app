@@ -1,13 +1,7 @@
-.subtitle-container {
+.descriptions-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.subtitle-text-section {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
 }
 
 .subtitle-text-left {
@@ -16,15 +10,6 @@
 
 .subtitle-text-right {
   text-align: right;
-}
-
-.subtitle-text-section > .subtitle-text {
-  font-size: 12px;
-}
-
-.subtitle-text-section > .subtitle-caption {
-  font-size: 10px;
-  color: var(--subtitle-caption-color);
 }
 
 .hr-container {

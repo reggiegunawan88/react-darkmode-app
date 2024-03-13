@@ -1,0 +1,14 @@
+.subtitle-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.subtitle-text-section > .subtitle-text {
+  font-size: 12px;
+}
+
+.subtitle-text-section > .subtitle-caption {
+  font-size: 10px;
+  color: var(--subtitle-caption-color);
+}
